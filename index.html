@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <u><h2>Weather app</h2></u>
+      <div class="div_btn">
+        <button class="button-34" onclick="getCoord()">
+          Get Weather Details (GPS)
+        </button>
+
+        <input type="text" class="cityInput" placeholder="ENTER CITY" /><button
+          class="button-34 citySRCH"
+          onclick="getWeatherByName()"
+        >
+          Get Weather By City Name
+        </button>
+      </div>
+      <div class="weatherGPS hide"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

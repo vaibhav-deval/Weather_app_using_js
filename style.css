@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  color: #ffffff;
+  margin-top: 0.5rem;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 47%,
+    rgba(237, 221, 83, 1) 100%
+  );
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0rem;
+  gap: 0.2rem;
+}
+
+.weatherGPS {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  word-spacing: 1rem;
+}
+
+.hide {
+  display: none;
+}
+
+.cityInput {
+  border: 1px solid black;
+  font-size: medium;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0rem;
+  outline: 0;
+  background: transparent;
+}
+
+.cityInput::placeholder {
+  color: black;
+  letter-spacing: 0.5rem;
+}
+
+.button-34 {
+  background: #5e5df0;
+  border-radius: 999px;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+.button-34:hover {
+  background: #4f4ff9;
+}
+
+.button-34:active {
+  background: transparent;
+}
