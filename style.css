@@ -18,9 +18,14 @@ body {
 }
 
 .app {
+  width: 90%;
+  max-width: 450px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center; 
+  margin: auto; 
 }
 
 .div_btn {
@@ -51,6 +56,9 @@ body {
   margin: 1rem 0rem;
   outline: 0;
   background: transparent;
+  width: 80%;
+  max-width: 300px;
+
 }
 
 .cityInput::placeholder {
@@ -78,7 +86,8 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: fit-content;
+  width: 80%;
+  max-width: 250px;
   word-break: break-word;
   border: 0;
 }
@@ -89,4 +98,23 @@ body {
 
 .button-34:active {
   background: transparent;
+}
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .div_btn {
+    gap: 0.5rem;
+  }
+
+  .cityInput {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .button-34 {
+    font-size: 14px;
+    padding: 6px 14px;
+  }
 }
